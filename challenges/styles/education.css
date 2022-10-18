@@ -1,0 +1,28 @@
+body {
+    background-color: palevioletred;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.top-p {
+    color: white;
+    text-align: center;
+}
+
+.top {
+    margin:auto;
+    text-align: center;
+}
+
+.mid {
+    margin: auto;
+    text-align: center;
+}
+
+.botton {
+    margin: auto;
+    text-align: center;
+}
