@@ -1,91 +1,206 @@
+/*///////////////////////////////////////////////////
+=====The fonts of the website=====
+//////////////////////////////////////////////////*/
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+
+/*///////////////////////////////////////////////////
+=====Body, and  Content (A container for our entire page)=====
+//////////////////////////////////////////////////*/
+
+body {
+    background-color: #170F0C;
+    padding: 0;
+    margin: 0;
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
+/*///////////////////////////////////////////////////
+=====Header, Logo Box, and Navigation=====
+//////////////////////////////////////////////////*/
+
+header {
+    background-color: #FECC77;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
 nav a {
+    padding: 35px;
     text-align: center;
-    color: #ffffff;
+    color: #170F0C;
     text-decoration: none;
+    font-family: "Roboto Slab", "Arial", sans-serif;
 }
 
-#hero-msg h1, #hero-msg h4 {
+nav a:hover {
+    background-color: #FFFFFF;
+}
+
+/*///////////////////////////////////////////////////
+=====Hero=====
+//////////////////////////////////////////////////*/
+
+.home-title {
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
-}
-
-h4 {
-    color: #FFFFFF;
 }
 
 .button-box {
     text-align: center;
 }
 
+.book {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #170F0C;
+    text-decoration: none;
+    font-family: "Roboto Slab", "Arial", sans-serif;
+}
+
+.book:hover {
+    background-color: #FECC77;
+    color: #170F0C;
+}
+
+/*///////////////////////////////////////////////////
+=====Main Section=====
+//////////////////////////////////////////////////*/
+
 main section {
     text-align: center;
 }
+
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px;
+}
+
+.card-img {
+    border: 10px solid #FECC77;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+
+/*///////////////////////////////////////////////////
+=====Headlines=====
+//////////////////////////////////////////////////*/
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Roboto Slab", "Arial", sans-serif;
+}
+
+h1 {
+   color: #FECC77;
+}
+
+h2 {
+    color: #FECC77;
+    margin: 0;
+}
+
+h4 {
+    color: #FFFFFF;
+}
+
+/*///////////////////////////////////////////////////
+=====Paragraph=====
+//////////////////////////////////////////////////*/
+
+p {
+    font-family: "Roboto", "Helvetica", sans-serif;
+}
+
+/*///////////////////////////////////////////////////
+=====Message=====
+//////////////////////////////////////////////////*/
 
 #background {
     height: 725px;
     background-color: #FECC77;
 }
 
-body {
-    background-color: #170F0C;
-}
-
-header {
-    background-color: #FECC77;
-}
-
-nav a:hover {
-    background-color: #170F0C;
-}
-
-.book, .join {
-    background-color: #FECC77;
-    color: #FFFFFF;
-    text-decoration: none;
-}
-
-.book:hover, .join:hover {
-    background-color: #170F0C;
-    color: #FFFFFF;
-}
-
 .msg {
     background-color: #FECC77;
-}
+    line-height: 1.5em;
+    padding: 35px;
+} /*/ Message Background /*/
 
 .msg h2 {
-    color: #FFFFFF;
+    color: #170F0C;
 }
 
 .msg p {
-    color: #FFFFFF;
+    color: #170F0C;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
+.join {
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #170F0C;
+    color: #FECC77;
+    text-decoration: none;
+    font-family: "Roboto Slab", "Arial", sans-serif;
+}
+
+.join:hover {
+    background-color: #FFFFFF;
+    color: #170F0C;
+}
+
+/*///////////////////////////////////////////////////
+=====Footer=====
+//////////////////////////////////////////////////*/
+
 footer {
-    background-color: #FECC77;
+    background-color: #170F0C;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
-    color: #FFFFFF;
+    color: #FECC77;
     text-decoration: none;
 }
 
 footer a:hover {
-    color: #FFFFFF;
+    color: #FECC77;
 }
 
 footer p {
+    color: #FECC77;
     font-size: 1.2em;
+    font-family: "Roboto Slab", "Arial", sans-serif;
 }
 
 footer p a:hover {
     text-decoration: underline;
 }
 
-.icon {
-    width: 80px;
+footer .social img {
+    padding-top: 15px;
 }
