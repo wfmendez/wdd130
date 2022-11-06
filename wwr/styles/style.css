@@ -26,9 +26,7 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
     background-color: #FECC77;
-    opacity: 60%;
-    position: sticky;
-        top: 1px;
+    opacity: 65%;
 }
 
 .logo {
@@ -132,6 +130,13 @@ main section img {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.cards {
+    grid-column: 1/11;
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
 
 .rivers-card {
     margin: 200px;
@@ -152,7 +157,7 @@ main section img {
 }
 
 .card-img {
-    width: 400px;
+    width: 300px;
     border: 10px solid #FECC77;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
