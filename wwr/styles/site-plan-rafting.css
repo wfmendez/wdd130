@@ -1,33 +1,33 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #FECC77;
-    --secondary-color: #170F0C;
-    --accent1-color: #C86C28;
-    --accent2-color: #ED8E6C;
+    --primary-color: #50c5de;
+    --secondary-color: #2B5463;
+    --accent1-color: #F6952D;
+    --accent2-color: #FBBF41;
 
     /* change the values below to your chosen font(s) */
-    --heading-font: "Roboto+Slab";
-    --paragraph-font: "Roboto";
+    --heading-font: "Montserrat", sans-serif;
+    --paragraph-font: "Poppins", sans-serif;
 
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #170F0C;
+    --headline-color-on-white: #2B5463;
     /* headlines on a white background */
-    --headline-color-on-color: #170F0C;
+    --headline-color-on-color: #2B5463;
     /* headlines on a colored background */
-    --paragraph-color-on-white: #170F0C;
+    --paragraph-color-on-white: #2B5463;
     /* paragraph text on a white background */
-    --paragraph-color-on-color: #170F0C;
+    --paragraph-color-on-color: #2B5463;
     /* paragraph text on a colored background */
-    --text-background-color: #FECC77;
-        --nav-link-color: #170F0C;
-        --nav-background-color: #ED8E6C;
-        --nav-hover-link-color: #170F0C;
-        --nav-hover-background-color: #C86C28;
+    --paragraph-background-color: #FBBF41;
+        --nav-link-color: #2B5463;
+        --nav-background-color: #50c5de;
+        --nav-hover-link-color: #50c5de;
+        --nav-hover-background-color: #2B5463;
 }
 
 
@@ -38,7 +38,7 @@ body {
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 
 img {
